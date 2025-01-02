@@ -60,7 +60,7 @@ fun CustomContainerCompose(
             scope.launch {
                 firstAlpha.animateTo(
                     targetValue = 1f,
-                    animationSpec = tween(durationMillis = 3000)
+                    animationSpec = tween(durationMillis = 2000)
                 )
             }
         }
@@ -78,7 +78,7 @@ fun CustomContainerCompose(
             scope.launch {
                 secondAlpha.animateTo(
                     targetValue = 1f,
-                    animationSpec = tween(durationMillis = 3000)
+                    animationSpec = tween(durationMillis = 2000)
                 )
                 println("Final secondAlpha: ${secondAlpha.value}")
             }

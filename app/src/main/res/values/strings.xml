@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">android practicum custom view</string>
+    <string name="first_view_text">Первый View</string>
+    <string name="second_view_text">Второй View</string>
+    <string name="navigate_to_xml_screen">Перейти к экрану с традиционной версткой</string>
+    <string name="navigate_to_compose_screen">Перейти к экрану с версткой Compose</string>
+    <string name="first_view">Первый View</string>
+    <string name="second_view">Второй View</string>
 </resources>

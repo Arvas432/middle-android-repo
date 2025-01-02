@@ -69,7 +69,7 @@ class CustomContainer @JvmOverloads constructor(
             duration = 5000
         }
         val alphaAnimator = ObjectAnimator.ofFloat(view, View.ALPHA, 0f, targetAlpha).apply {
-            duration = 3000
+            duration = 2000
         }
         AnimatorSet().apply {
             playTogether(alphaAnimator, translationAnimator)

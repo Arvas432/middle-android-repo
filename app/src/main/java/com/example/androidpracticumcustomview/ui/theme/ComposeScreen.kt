@@ -8,30 +8,29 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-
-/*
-Задание:
-Реализуйте необходимые компоненты.
-*/
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.unit.sp
+import com.example.androidpracticumcustomview.R
 
 @Composable
-fun MainScreen() {
+fun ComposeScreen() {
     Scaffold { paddingValues ->
         Box(
             modifier = Modifier
                 .fillMaxSize()
                 .padding(paddingValues), contentAlignment = Alignment.Center
         ) {
-
             CustomContainerCompose(
                 firstChild = {
                     Text(
-                        text = "Первый View",
+                        text = stringResource(R.string.first_view),
+                        fontSize = 20.sp,
                     )
                 },
                 secondChild = {
                     Text(
-                        text = "Второй View",
+                        text = stringResource(R.string.second_view),
+                        fontSize = 20.sp,
                     )
                 }
             )
